@@ -14,9 +14,11 @@
         <p class=" text-gray-300 mt-3 text-xl max-w-3xl mx-auto mt-5 mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eligendi reprehenderit consectetur vel voluptate provident!</p>
     </div>
 
-    <div class="grid grid-cols-7">
-        <div class="bg-white rounded-l-lg overflow-hidden col-start-1 col-end-3 row-start-2 row-end-3">
-            <div class="flex items-center justify-center flex-col py-5">
+    <div class="max-w-7xl mx-auto px-8 mt-16"> 
+        <div class="grid grid-cols-7">
+        <div class="col-start-1 col-end-3 row-start-2 row-end-3">
+           <div class="bg-white rounded-l-lg ">
+            <div class="flex items-center justify-center flex-col py-10">
                 <span class=" text-lg font-semibold">Hobby</span>
                 <div class="flex items-center space-7-5">
                     <span class="text-2xl font-bold">$</span>
@@ -24,7 +26,7 @@
                     <span class="font-semibold text-xl text-gray-500 ml-2">/ month</span>
                 </div>
             </div>
-            <div class="bg-gray-100 p-12">
+            <div class="bg-gray-100 p-12 rounded-b-lg">
                 <ul class="space-y-3 ">
                     <li class="flex">
                         <svg class="flex-shrink-0 h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -52,12 +54,19 @@
                </div>
     
             </div>
+           </div>
         </div>
         
-        <div  class="bg-white rounded-lg overflow-hidden col-start-3 col-end-6 row-start-1 row-end-4">
+        <div  class="col-start-3 col-end-6 row-start-1 row-end-4">
+           <div class="bg-white ring-2 relative ring-indigo-600 z-10 rounded-lg ">
+           <div class="flex justify-center w-full">
+            <span class="rounded-full bg-indigo-600 px-4 py-1 text-white absolute -top-5">
+                Most Popular
+            </span>
+           </div>
             <div class="container mx-auto">
                 <div class="bg-white rounded-lg overflow-hidden">
-                    <div class="flex items-center justify-center flex-col py-5">
+                    <div class="flex items-center justify-center flex-col py-10 space-y-5 border-b-2 border-gray-200">
                         <span class=" text-lg font-semibold">Growth</span>
                         <div class="flex items-center space-7-5">
                             <span class="text-2xl font-bold">$</span>
@@ -105,16 +114,17 @@
                        <div class="flex justify-center ">
                         <a class="bg-indigo-600 mt-5 w-full text-center p-3 rounded-lg text-white shadow  hover:bg-indigo-800" href="#">Start your trial</a>
                        </div>
-            
                     </div>
+           </div>
                 </div>
             </div>
         </div>
 
-         <div  class="bg-white rounded-r-lg overflow-hidden col-start-6 col-end-8 row-start-2 row-end-3">
+         <div  class="col-start-6 col-end-8 row-start-2 row-end-3">
             <div class="container mx-auto">
+              <div class="bg-white rounded-r-lg ">
                 <div class="bg-white rounded-lg overflow-hidden">
-                    <div class="flex items-center justify-center flex-col py-5">
+                    <div class="flex items-center justify-center flex-col py-10">
                         <span class=" text-lg font-semibold">Scale</span>
                         <div class="flex items-center space-7-5">
                             <span class="text-2xl font-bold">$</span>
@@ -152,7 +162,11 @@
                     </div>
                 </div>
                 </div>
+              </div>
          </div>
     </div>
+    </div>
+
+   
 </body>
 </html>
